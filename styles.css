@@ -31,7 +31,6 @@ body {
 .fv {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .resume {
@@ -207,6 +206,7 @@ body {
 }
 
 .experiences__company-project-name {
+    padding-top: 10px;
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
